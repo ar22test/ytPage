@@ -1,0 +1,74 @@
+.projectSection{
+    margin-top: 5rem;
+}
+
+.individual-project{
+  /* width: 1000px !important; */
+    margin: 15px 0px;
+}
+
+.videoFetchButton {
+  width: 100%;
+  justify-content: center;
+}
+
+.project-body{
+    height: 13rem;
+}
+
+.project-body-lr{
+    padding-top: 3rem;
+    height: 15rem;
+}
+
+.project-body-block{
+    padding-top: 2rem;
+    height: 14rem;
+}
+
+.social-links{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.social-links a {
+  margin: 0 3px !important;  
+  height: 38px;
+  width: 38px;
+  background-color: var(--alt-bg-color);
+  border-radius: 3px;
+  display: inline-block;
+  border: 1px solid var(--alt-bg-color);
+  text-align: center;
+  margin: 0 1px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.social-links a:hover{
+  background-color: transparent;
+}
+
+.social-links a .fa{
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 16px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.social-links a:hover .fa{
+  color: #000000;
+}
+
+.videoButton{
+  width: 8rem !important; 
+  height: 3rem !important; 
+  font-size: 1.25rem
+}
+
+@media screen and (max-width: 450px){
+  .project-body-all{
+    height: 16rem;
+  }
+}

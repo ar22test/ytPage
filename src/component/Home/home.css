@@ -1,0 +1,23 @@
+.bglanding{
+    /* background-color: var(--alt-bg-color); */
+    /* height: 100vh;
+    width: 220vh; */
+    background-image: url("./canvas2.jpeg");
+    user-select: none;
+}
+
+.bgimage{
+    /* max-height: 710px;
+    max-width: 1550px; */
+    user-select: none;
+    height: 100vh;
+    width: 100vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 450px){
+	.bgimage {
+		width: 25vh;
+		height: 150vh !important;
+	}
+}
