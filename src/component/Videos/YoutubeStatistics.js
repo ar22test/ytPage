@@ -9,12 +9,12 @@ const YoutubeStatistics = ({videoId}) => {
 	const [statistics, setStatistics] = useState(null);
 
 	const fetchVideoStatistics = async videoId => {
-		const apiKey = 'AIzaSyD6n5clvZCe0Q0PmcF-WUI64Ynrnkhiqqw';
-		const url = `https://youtube.googleapis.com/youtube/v3/videos?part=statistics&id=${videoId}&key=${apiKey}`;
+		// const url = `https://youtube.googleapis.com/youtube/v3/videos?part=statistics&id=${videoId}&key=${apiKey}`;
 
 		try {
-			const response = await axios.get(url);
-			return response.data.items[0].statistics;
+			// const response = await axios.get(url);
+			// return response.data.items[0].statistics;
+			return null
 		} catch (error) {
 			console.error('Error fetching video statistics:', error);
 			return null;

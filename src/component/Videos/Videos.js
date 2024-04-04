@@ -17,7 +17,7 @@ const Videos = () => {
 
   const fetchYTVideos = () => {
     const channelId = 'UC_l620HNEbBOeASyPbQe_3Q';
-    const apiKey = 'AIzaSyD6n5clvZCe0Q0PmcF-WUI64Ynrnkhiqqw';
+    const apiKey = 'AIzaSyAXd53NkN9aGldqtPKNI9LurUCdltLSpwA';
 
     const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&key=${apiKey}&maxResults=5${nextPageToken ? `&pageToken=${nextPageToken}` : ''}`;
     
